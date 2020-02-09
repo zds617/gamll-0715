@@ -12,6 +12,7 @@ import java.io.Serializable;
 public class UserInfo implements Serializable {
     @Id
     @Column
+    //id自增
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     @Column

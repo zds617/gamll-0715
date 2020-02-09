@@ -7,6 +7,7 @@ import java.io.Serializable;
 import java.util.List;
 
 @Data
+//平台属性实体类
 public class BaseAttrInfo implements Serializable {
 
     @Id
